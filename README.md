@@ -1,5 +1,7 @@
 # Maritime and Subsea Vision: Vessel Hull OCR, Marine Ecology Analytics and Wildfire Detection
 
+Part of my [applied computer vision portfolio](https://github.com/mh-masum6875/enterprise-computer-vision-solutions).
+
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![CUDA](https://img.shields.io/badge/CUDA-12.1%20Accelerated-76B900?logo=nvidia&logoColor=white)](https://developer.nvidia.com/cuda-toolkit)
 [![Ultralytics](https://img.shields.io/badge/YOLO-Ultralytics-00FFFF)](https://ultralytics.com/)
@@ -67,7 +69,7 @@ Our automated underwater ecological survey logged **91,120 total detections** ac
    - Multi-class tracking for aquatic ecosystems.
    - On-screen aggregate analytics HUD.
 
-4. **Wildfire & Smoke Detector (`fire_smoke_detector.py`)**:
+4. **Wildfire & Smoke Detector**:
    - Designed for 24/7 RTSP/ONVIF streams from PTZ surveillance cameras.
    - Achieves $\ge 80\%$ True Positive Rate while suppressing false positives (glare, fog, thermal plumes).
 
@@ -77,8 +79,8 @@ Our automated underwater ecological survey logged **91,120 total detections** ac
 
 ```bash
 # Clone the repository
-git clone https://github.com/mh-masum6875/maritime-underwater-vision-ai.git
-cd maritime-underwater-vision-ai
+git clone https://github.com/mh-masum6875/maritime-subsea-vision.git
+cd maritime-subsea-vision
 
 # Install dependencies
 pip install -r requirements.txt
