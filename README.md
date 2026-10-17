@@ -1,4 +1,4 @@
-# 🌊 Maritime & Subsea Vision AI: Surface Vessel OCR, Marine Ecological Analytics & Wildfire Detection
+# Maritime and Subsea Vision: Vessel Hull OCR, Marine Ecology Analytics and Wildfire Detection
 
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![CUDA](https://img.shields.io/badge/CUDA-12.1%20Accelerated-76B900?logo=nvidia&logoColor=white)](https://developer.nvidia.com/cuda-toolkit)
@@ -10,7 +10,7 @@ A comprehensive, GPU-accelerated computer vision platform engineered for maritim
 
 ---
 
-## 📸 Visual Detections & System Performance
+## Visual Detections & System Performance
 
 ### 1. Surface Vessel Classification & Hull Number OCR
 Automated vessel segmentation combined with CLAHE image enhancement and GPU EasyOCR to identify commercial carriers in real time.
@@ -30,7 +30,7 @@ Continuous PTZ stream surveillance for forest fire and industrial smoke detectio
 
 ---
 
-## 📊 Benchmark Analytics & Quantitative Findings
+## Benchmark Analytics & Quantitative Findings
 
 Our automated underwater ecological survey logged **91,120 total detections** across high-definition subsea video transects:
 
@@ -52,7 +52,7 @@ Our automated underwater ecological survey logged **91,120 total detections** ac
 
 ---
 
-## 🚀 Key Architectural Modules
+## Key Architectural Modules
 
 1. **Surface Vessel Detection (`vessel_detection.py`)**:
    - Detects and categorizes 8 vessel classes: *Barge, Cargo Ship, Container Ship, Cruise Ship, Ferry, River Boat, Sailboat, Yacht*.
@@ -73,7 +73,7 @@ Our automated underwater ecological survey logged **91,120 total detections** ac
 
 ---
 
-## 🛠️ Quickstart & Installation
+## Quickstart & Installation
 
 ```bash
 # Clone the repository
@@ -104,7 +104,7 @@ python src/underwater_species_analyzer.py --source data/subsea_survey.mp4
 
 ---
 
-## 🌊 Extended Maritime & Environmental Intelligence Capabilities
+## Related Analytics
 
 This platform's core architecture extends across multi-domain marine and environmental monitoring:
 
@@ -115,5 +115,5 @@ This platform's core architecture extends across multi-domain marine and environ
 - **Continuous Wildfire & Industrial Smoke Surveillance**: Day/night PTZ stream inference ($\ge 80\%$ TPR) with optical glare and thermal plume filtering.
 - **Oil Spill & Environmental Anomaly Alerting**: REST and Webhook streaming architecture for instant pollution containment dispatch.
 
-## 📄 License
+## License
 This project is licensed under the MIT License.
